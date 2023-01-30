@@ -31,7 +31,7 @@ class SearchProblem:
         """
         Returns the start state for the search problem.
         """
-        util.raiseNotDefined()
+        util.raiseNotDefined() ## TODO
 
     def isGoalState(self, state):
         """
@@ -39,7 +39,7 @@ class SearchProblem:
 
         Returns True if and only if the state is a valid goal state.
         """
-        util.raiseNotDefined()
+        util.raiseNotDefined() ## TODO
 
     def getSuccessors(self, state):
         """
@@ -50,7 +50,7 @@ class SearchProblem:
         state, 'action' is the action required to get there, and 'stepCost' is
         the incremental cost of expanding to that successor.
         """
-        util.raiseNotDefined()
+        util.raiseNotDefined() ## TODO
 
     def getCostOfActions(self, actions):
         """
@@ -59,7 +59,7 @@ class SearchProblem:
         This method returns the total cost of a particular sequence of actions.
         The sequence must be composed of legal moves.
         """
-        util.raiseNotDefined()
+        util.raiseNotDefined() ## TODO
 
 
 def tinyMazeSearch(problem):
@@ -87,17 +87,17 @@ def depthFirstSearch(problem):
     print("Start's successors:", problem.getSuccessors(problem.getStartState()))
     """
     "*** YOUR CODE HERE ***"
-    util.raiseNotDefined()
+    util.raiseNotDefined() ## TODO
 
 def breadthFirstSearch(problem):
     """Search the shallowest nodes in the search tree first."""
     "*** YOUR CODE HERE ***"
-    util.raiseNotDefined()
+    util.raiseNotDefined() ## TODO
 
 def uniformCostSearch(problem):
     """Search the node of least total cost first."""
     "*** YOUR CODE HERE ***"
-    util.raiseNotDefined()
+    util.raiseNotDefined() ## TODO
 
 def nullHeuristic(state, problem=None):
     """
@@ -109,7 +109,7 @@ def nullHeuristic(state, problem=None):
 def aStarSearch(problem, heuristic=nullHeuristic):
     """Search the node that has the lowest combined cost and heuristic first."""
     "*** YOUR CODE HERE ***"
-    util.raiseNotDefined()
+    util.raiseNotDefined() ## TODO
 
 
 # Abbreviations
